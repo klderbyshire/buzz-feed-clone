@@ -32,4 +32,69 @@ answers: [
     }
 ]
     },
+    {
+        id: 1,
+        text: "Pick some food:",
+        answers: [
+            {
+                text: "Pizza",
+                image: "https://unsplash.com/photos/NzHRSLhc6Cs",
+                alt: "Sourdough Pizza",
+                credit: "Masimo Grabar"   
+            },
+            {
+                text: "Sandwich",
+                image: "https://unsplash.com/photos/U0PiIS4Uvkc",
+                alt: "Sandwich",
+                credit: "Pille R. Priske"
+            },
+            {
+                text: "Pasta",
+                image: "https://unsplash.com/photos/d9jcPTRD9fo",
+                alt: "Ragu Pasta",
+                credit: "Nicholas Grande"  
+            },
+            {
+                text: "Hamburger",
+                image: "https://unsplash.com/photos/jh5XyK4Rr3Y",
+                alt: "Hamburger",
+                credit: "amirali mirhashemian"  
+            },
+            {
+                id: 2,
+                text: "Pick a home:",
+                answers: [
+                    {
+                        text: "Traditional",
+                        image: "https://unsplash.com/photos/1ddol8rgUH8",
+                        alt: "Traditional house",
+                        credit: "Scott Webb"
+                    },
+                    {
+                        text: "Modern",
+                        image: "https://unsplash.com/photos/yFV39g6AZ5o",
+                        alt: "Modern house",
+                        credit: "Stephan Bechert"   
+                    },
+                    {
+                        text: "House",
+                        image: "https://unsplash.com/photos/178j8tJrNlc",
+                        alt: "House with garden",
+                        credit: "Todd Kent"   
+                    },
+                    {
+                        text: "Mountain House",
+                        image: "https://unsplash.com/photos/JT-RUtO2sfs",
+                        alt: "Mountain House",
+                        credit: "Aswathy N"   
+                    }
+                ]
+            }
+        ]
+    }
+]
+
+
+const populateQuestions = () => {
     
+}
